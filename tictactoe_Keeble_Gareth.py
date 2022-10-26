@@ -161,5 +161,6 @@ while turns < 9:
         break
     turns += 1
     if turns == 9:
+        print_field()
         print("Tie game")
     user = not user
